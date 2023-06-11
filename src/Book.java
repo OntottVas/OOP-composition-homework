@@ -45,4 +45,16 @@ public class Book {
         return "Book[name = " + this.name + ", " + author.toString() +
                 ", price = " + this.price + ", qty = " + this.qty + "]";
     }
+
+    public String getAuthorName() {
+        return author.getName();
+    }
+
+    public String getAuthorEmail() {
+        return author.getEmail();
+    }
+
+    public char getAuthorGender() {
+        return author.getGender();
+    }
 }
